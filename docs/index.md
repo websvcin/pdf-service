@@ -1,12 +1,35 @@
 # PDF Render Service
 
-Generate PDFs from HTML templates using .NET 8, Handlebars, and Playwright.
+Generate beautiful PDFs from HTML templates using .NET 8, Handlebars and Playwright.
+
+---
+
+## What this service does
+
+Convert HTML templates into PDF documents using JSON data.
+
+Perfect for:
+
+• invoices
+• reports
+• certificates
+• statements
+• agreements
+
+---
+
+## How it works
+
+1. Send HTML template
+2. Send JSON data
+3. API merges template
+4. Playwright renders PDF
 
 ---
 
 ## Quick Start
 
-Run docker:
+Run container:
 
 docker run -p 8080:80 websvcin/pdf-service
 
@@ -16,23 +39,11 @@ http://localhost:8080/docs
 
 ---
 
-## API Endpoint
+## Example Output
 
-POST /api/render/pdf
+Professional invoice generated using template:
 
----
-
-## Example
-
-HTML:
-
-<h1>Hello {{name}}</h1>
-
-JSON:
-
-{
-"name":"John"
-}
+![invoice](assets/invoice-preview.png)
 
 ---
 
@@ -43,3 +54,5 @@ https://hub.docker.com/r/websvcin/pdf-service
 
 GitHub:
 https://github.com/websvcin/pdf-service
+
+---
