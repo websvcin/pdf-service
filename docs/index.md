@@ -47,6 +47,12 @@ Professional invoice generated using template:
 
 ---
 
+## Preview Example
+
+Live template preview:
+
+https://websvcin.github.io/pdf-service/assets/invoice-preview.html
+
 ## Links
 
 Docker Hub:
