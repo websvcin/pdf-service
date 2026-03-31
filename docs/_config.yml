@@ -4,8 +4,8 @@ theme: minima
 
 header_pages:
 
-* index.md
-* getting-started.md
-* api.md
-* templates.md
-* examples.md
+- index.md
+- getting-started.md
+- api.md
+- templates.md
+- examples.md
