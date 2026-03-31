@@ -1,5 +1,5 @@
-title: PDF Service Docs
-
+title: PDF Render Service
+description: HTML to PDF API using .NET 8 + Playwright
 theme: minima
 
 header_pages:
@@ -8,3 +8,4 @@ header_pages:
 * getting-started.md
 * api.md
 * templates.md
+* examples.md
