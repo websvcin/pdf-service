@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<meta charset="utf-8">
+
+<title>Invoice Preview</title>
+
+<style>
+
+body{
+font-family: Inter, Arial, sans-serif;
+background:#f8fafc;
+padding:40px;
+}
+
+.page{
+background:white;
+max-width:900px;
+margin:auto;
+padding:40px;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:2px solid #f1f5f9;
+padding-bottom:20px;
+margin-bottom:30px;
+}
+
+.logo{
+font-size:22px;
+font-weight:600;
+color:#2563eb;
+}
+
+.title{
+font-size:34px;
+font-weight:700;
+}
+
+.meta{
+color:#6b7280;
+margin-top:5px;
+}
+
+.section{
+margin-top:25px;
+}
+
+.label{
+font-size:12px;
+color:#6b7280;
+text-transform:uppercase;
+margin-bottom:5px;
+}
+
+.value{
+font-size:15px;
+font-weight:500;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:25px;
+}
+
+th{
+text-align:left;
+font-size:12px;
+color:#6b7280;
+padding-bottom:8px;
+border-bottom:1px solid #e5e7eb;
+}
+
+td{
+padding:12px 0;
+border-bottom:1px solid #f3f4f6;
+font-size:14px;
+}
+
+.total-section{
+margin-top:30px;
+display:flex;
+justify-content:flex-end;
+}
+
+.total-box{
+width:260px;
+}
+
+.row{
+display:flex;
+justify-content:space-between;
+margin-bottom:8px;
+}
+
+.grand-total{
+font-size:20px;
+font-weight:700;
+border-top:2px solid #e5e7eb;
+padding-top:10px;
+}
+
+.footer{
+margin-top:50px;
+font-size:12px;
+color:#9ca3af;
+text-align:center;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="page">
+
+<div class="header">
+
+<div class="logo">
+WebSvc Pvt Ltd
+</div>
+
+<div>
+
+<div class="title">
+Invoice
+</div>
+
+<div class="meta">
+#INV-1001
+</div>
+
+<div class="meta">
+2026-03-31
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<div class="label">
+Bill To
+</div>
+
+<div class="value">
+
+John Doe<br>
+[john@email.com](mailto:john@email.com)<br>
+Chennai
+
+</div>
+
+</div>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Description</th>
+<th>Qty</th>
+<th>Price</th>
+<th>Total</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>API Subscription</td>
+<td>1</td>
+<td>100</td>
+<td>100</td>
+
+</tr>
+
+<tr>
+
+<td>Support</td>
+<td>2</td>
+<td>50</td>
+<td>100</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<div class="total-section">
+
+<div class="total-box">
+
+<div class="row">
+
+<span>Subtotal</span> <span>200</span>
+
+</div>
+
+<div class="row">
+
+<span>Tax</span> <span>0</span>
+
+</div>
+
+<div class="row grand-total">
+
+<span>Total</span> <span>200</span>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="footer">
+
+Generated using PDF Render Service
+
+</div>
+
+</div>
+
+</body>
+
+</html>
