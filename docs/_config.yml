@@ -1,0 +1,10 @@
+title: PDF Service Docs
+
+theme: minima
+
+header_pages:
+
+* index.md
+* getting-started.md
+* api.md
+* templates.md
