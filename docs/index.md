@@ -39,19 +39,28 @@ http://localhost:8080/docs
 
 ---
 
-## Example Output
-
-Professional invoice generated using template:
-
-![invoice](assets/invoice-preview.png)
-
----
-
 ## Preview Example
 
 Live template preview:
 
 https://websvcin.github.io/pdf-service/assets/invoice-preview.html
+
+---
+## Downloads
+
+Latest build:
+
+[Download ZIP](https://websvcin.github.io/pdf-service/releases/latest.zip)
+
+Docker:
+
+docker pull websvcin/pdf-service
+
+All builds:
+
+https://websvcin.github.io/pdf-service/releases/
+
+---
 
 ## Links
 
