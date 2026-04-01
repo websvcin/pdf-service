@@ -6,6 +6,9 @@ Download latest compiled version:
 
 [Download latest ZIP](https://websvcin.github.io/pdf-service/releases/latest.zip)
 
+Latest build generated automatically from Azure DevOps pipeline.
+Build number increases on each release.
+
 ---
 
 ## All Builds
