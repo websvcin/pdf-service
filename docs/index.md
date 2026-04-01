@@ -1,12 +1,8 @@
-[Docker Hub](https://hub.docker.com/r/websvcin/pdf-service)
-
-[Download Latest](https://websvcin.github.io/pdf-service/releases/latest.zip)
-
-[GitHub](https://github.com/websvcin/pdf-service)
-
 # PDF Render Service
 
 Generate beautiful PDFs from HTML templates using .NET 8, Handlebars and Playwright.
+
+[Docker Hub](https://hub.docker.com/r/websvcin/pdf-service), [Download Latest](https://websvcin.github.io/pdf-service/releases/latest.zip), [GitHub](https://github.com/websvcin/pdf-service)
 
 ---
 
