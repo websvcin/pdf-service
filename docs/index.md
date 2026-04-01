@@ -31,45 +31,33 @@ Perfect for:
 
 ## Quick Start
 
-Run container:
+**runcontainer**  
+`docker run -p 8080:80 websvcin/pdf-service`
 
-docker run -p 8080:80 websvcin/pdf-service
-
-Swagger UI:
-
-http://localhost:8080/docs
+**Swagger UI**: http://localhost:8080/docs
 
 ---
 
 ## Preview Example
 
-Live template preview:
-
-https://websvcin.github.io/pdf-service/assets/invoice-preview.html
+**Live template preview**: https://websvcin.github.io/pdf-service/assets/invoice-preview.html
 
 ---
 ## Downloads
 
-Latest build:
+**Latest build**: [Download ZIP](https://websvcin.github.io/pdf-service/releases/latest.zip)  
 
-[Download ZIP](https://websvcin.github.io/pdf-service/releases/latest.zip)
+**Docker**  
+`docker pull websvcin/pdf-service`  
 
-Docker:
-
-docker pull websvcin/pdf-service
-
-All builds:
-
-https://websvcin.github.io/pdf-service/releases/
+**All builds**: https://websvcin.github.io/pdf-service/releases/
 
 ---
 
 ## Links
 
-Docker Hub:
-https://hub.docker.com/r/websvcin/pdf-service
+**Docker Hub**: https://hub.docker.com/r/websvcin/pdf-service
 
-GitHub:
-https://github.com/websvcin/pdf-service
+**GitHub**: https://github.com/websvcin/pdf-service
 
 ---
