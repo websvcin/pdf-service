@@ -2,7 +2,11 @@
 
 Generate beautiful PDFs from HTML templates using .NET 8, Handlebars and Playwright.
 
-[Docker Hub](https://hub.docker.com/r/websvcin/pdf-service), [Download Latest](https://websvcin.github.io/pdf-service/releases/latest.zip), [GitHub](https://github.com/websvcin/pdf-service)
+**Following are the options to start using**:
+
+**1. Depoy using Docker Image** : [Docker Hub](https://hub.docker.com/r/websvcin/pdf-service), 
+**2. Deploy using artifactsprebuilt build**: [Download Latest](https://websvcin.github.io/pdf-service/releases/latest.zip)
+**Note**: Access the releases - [GitHub](https://github.com/websvcin/pdf-service)
 
 ---
 
