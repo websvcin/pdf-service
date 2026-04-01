@@ -3,8 +3,8 @@ description: HTML to PDF API using .NET 8 + Playwright
 theme: minima
 
 header_pages:
-
 - index.md
+- downloads.md
 - getting-started.md
 - api.md
 - templates.md
